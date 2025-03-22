@@ -2,7 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: hsl(33, 100%, 94%);
-    background-image: url("/Images/background.webp");
+    background-image: url("Images/background.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
