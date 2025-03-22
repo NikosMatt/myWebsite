@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(32, 100%, 93%);
+}
+
+.header {
+    background-color: hsl(34, 93%, 89%);
+    text-align: center;
+}
+
+#mainGameTitle {
+    color: hsl(33, 100%, 61%);
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.navBar a {
+   text-decoration: none;
+   color: hsl(44, 85%, 37%);
+   margin: 8px;
+   padding: 10px;
+}
+
+
+.navBar {
+    font-size: 20px;
+    background-color: hsl(33, 100%, 88%);
+    align-items: center;
+    padding: 10px;
+    border: 2px solid hsl(33, 89%, 75%);
+    border-radius: 6px;
+    margin-top: 50px;
+}
+
+.navBar a:hover {
+    background-color: hsl(33, 100%, 84%);
+    border-radius: 7px;
+}
+
+.homeContent {
+    text-align: center;
+    margin: 100px auto;
+    margin-top: 150px;
+    border: 1px solid hsl(33, 100%, 74%);
+    border-style: outset;
+    border-radius: 10px;
+    background-color: hsl(37, 100%, 92%);
+    padding: 10px;
+    min-height: 270px;
+    height: auto;
+    width: 90%;
+    max-width: 700px;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+    border: 4px solid rgb(229, 229, 229);
+    border-radius: 5px;
+    background-color: rgb(229, 229, 229);
+    max-width: 23%;
+    height: 250px;
+    display: block;
+    margin-top: 150px;
+    margin-left: 750px;
+}
+
+#countLabel{
+    font-family: 'Times New Roman';
+    font-size: 10em;
+}
+
+.buttons{
+    font-size: 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: hsl(208, 100%, 67%);
+    padding: 3px;
+    margin: 1px;
+}
+
+.buttons:hover{
+    background-color: hsl(208, 74%, 56%);
+}

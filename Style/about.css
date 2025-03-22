@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(33, 100%, 94%);
+    background-image: url("/Images/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    background-color: hsl(34, 93%, 89%);
+    text-align: center;
+}
+
+.aboutContent {
+    text-align: center;
+    margin: 100px auto;
+    margin-top: 150px;
+    border: 1px solid hsl(33, 100%, 74%);
+    border-style: outset;
+    border-radius: 10px;
+    background-color: hsl(37, 100%, 92%);
+    padding: 10px;
+    min-height: 270px;
+    height: auto;
+    width: 90%;
+    max-width: 700px;
+    box-sizing: border-box;
+}
+
+#mainaboutTitle {
+    color: hsl(33, 100%, 61%);
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.navBar a {
+   text-decoration: none;
+   color: hsl(44, 85%, 37%);
+   margin: 8px;
+   padding: 10px;
+}
+
+.navBar {
+    font-size: 20px;
+    background-color: hsl(33, 100%, 88%);
+    align-items: center;
+    padding: 10px;
+    border: 2px solid hsl(33, 89%, 75%);
+    border-radius: 6px;
+    margin-top: 50px;
+}
+
+.navBar a:hover {
+    background-color: hsl(33, 100%, 84%);
+    border-radius: 7px;
+}
+
+#aboutTitle {
+    font-family: 'Courier New';
+    font-size: 35px;
+    color:hsl(33, 100%, 74%)
+}
+
+#aboutText {
+    font-size: 20px;
+    font-family: sans-serif;
+}
